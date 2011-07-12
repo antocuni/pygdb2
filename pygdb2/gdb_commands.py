@@ -47,7 +47,7 @@ class PyContinue (gdb.Command):
         cmds = self.read_commands()
         if cmds:
             for cmd in cmds:
-                print 'pygdb:', cmd
+                print 'pygdb2:', cmd
                 gdb.execute(cmd)
             return True
         return False
