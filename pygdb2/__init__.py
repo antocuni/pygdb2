@@ -4,6 +4,7 @@ except ImportError:
     pass
 else:
     import pygdb2.gdb_commands # side effects
+    import pygdb2.gdb_pretty_repr
 
 import os
 import pdb
